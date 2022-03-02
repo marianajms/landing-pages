@@ -11,7 +11,7 @@ h2{font: 1.8em;color:#333;}
 h2{font-weight: bold;}
 
 .cabecalho{width:100%;float:left;padding:18px 8%;background-color: rgb(25, 133, 133);}
-.logo a{background-image: url(../imagens/logotipo.jpg);background-size: 120px 120px;width: 120px;height:120px;float:left;}
+.logo a{background-image: url(../beauty-center/logotipo.jpg);background-size: 120px 120px;width: 120px;height:120px;float:left;}
 .cabecalho form{float:right;width: 40%;margin-top:30px;}
 .cabecalho input[type="text"]{float:left;width: 85%;height: 50px;font-size: 0.8em;border-radius: 5px 0 0 5px;padding-left: 20px;}
 .cabecalho button{float:right;width: 15%;height: 50px;cursor:pointer;border-radius: 0 5px 5px 0;}
@@ -38,9 +38,9 @@ h2{font-weight: bold;}
 
 .nl{background-color: rgb(24, 25, 27);width: 100%;padding:40px 8%; float:left;}
 .nl h3{font-size: 1.3em;color: #fff;}
-.nl p{text-indent: 0px;margin-bottom: 10px;color: #fff;}
+.nl p{text-indent: 0px;margin:10px 0;color: #fff;}
 .nl form{float:left;width: 100%;}
-.nl form input{float:left;width: 40%;margin-right: 1%;padding:10px 10px;border-radius: 5px;background-color: initial;border: solid #fff 1px;}
+.nl form input{float:left;width: 40%;margin-right: 1%;padding:10px 10px;border-radius: 5px;background-color: initial;border: solid #fff 1px;color:#fff;}
 .nl button{float: right;width: 18%;padding: 10px 10px;border-radius: 5px;cursor: pointer;}
 
 .footer{background-color:rgb(25, 133, 133);width: 100%;padding:15px 7%;float:left;}
