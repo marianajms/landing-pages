@@ -23,6 +23,8 @@ h2{font: 1.5em;color:#333;}
 .menu{padding:0 8%;float:left;background-color: rgb(255, 255, 255);width:100%;box-shadow: 5px 5px 5px rgb(226, 225, 225);}
 .menu ul{width: 80%;float:left;}
 .menu li{float:left;margin-right: 20px;font-size: 0.6em;padding:15px;letter-spacing: 1px;font-weight: bolder;}
+.menu li:hover{border-bottom: 2px solid black;}
+.menu a{letter-spacing: 1px;font-weight: bolder;color: black;}
 
 .pesquisa{width: 20%;float:left;}
 .pesquisa form{width: 100%;}
@@ -35,6 +37,25 @@ h2{font: 1.5em;color:#333;}
 
 .principal li{float:left; border:solid 1px rgb(196, 193, 193);border-radius: 5px; margin-right:2%;width: 40px;text-align: center;}
 .principal button{background-color: black;padding:5px 10px; font-weight:bolder ;font-size: 1.3em; color:rgb(255, 255, 255);margin: 35px 0;cursor: pointer;}
+
+.frete{float:left; background-color: rgb(229, 226, 226);padding:10px 20px; width: 41%;}
+#frete{float:left;}
+.frete h3{font-size: 1em;font-weight: bolder;}
+.frete h4{font-size: 0.9em;}
+
+.section{background-color:rgb(229, 226, 226) ;width: 100%;padding: 30px 5%;}
+.section{float:left;}
+.section a{float:left;margin-right: 20px;color: black;margin-top: 15px;}
+
+.section form{width: 60%;margin-top: 10px;}
+.section form input{float:left;width: 70%;padding:10px 20px;font-size: 0.8em;}
+.section form button{float:right;width: 30%;padding:10px 10px;color: #fff;font-weight: bolder;background-color: black;font-size: 0.8em;cursor:pointer;}
+.section form{margin-left:20%;}
+.section h5,form{float:left;}
+.section h4{color: black;font-weight: bolder;font-size: 0.8em;}
+.section h5{color: black;font-weight: bolder;font-size: 0.8em;margin-left: 20%;margin-top:0;}
+.section div{float:right;margin-top: -25px;}
+.footer{font-size: 0.7em;color: #333;background-color: rgb(255, 255, 255);width: 100%;}
 
 
 
