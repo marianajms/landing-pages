@@ -1,0 +1,23 @@
+/*RESET*/
+*{margin:0;padding:0;font-size: 100%;font-family: 'Open Sans', sans-serif;font-weight: normal;box-sizing: border-box;border: none;outline: none;}
+img{max-width: 100%;}
+ul{list-style: none;}
+a{text-decoration: none;}
+p{font-size: 1em;color: #777;text-align: justify;}
+h2{font: 1.5em;color:#333;}
+
+.promo{float:left;width: 100%;background-color: rgb(241, 58, 128);padding: 10px 10%;}
+.promo p{float:left;background-color: yellow;border-radius: 15px;color: black;font-weight: bolder;font-size: 0.7em;padding: 5px 15px; margin-top:6px;}
+.promo a{margin: 0 40px;}
+.promo h2{float:left;color: #fff; font-size: 1em;font-weight: bolder;margin-top:4px;margin-right: 20px;}
+#confira{float:left;color: #fff;text-decoration: underline;margin-top: 5px;}
+
+.cabecalho{ padding:10px 8%; background-color: rgb(243, 243, 243);height:167px;}
+.cabecalho h1 a{background-image: url(../shein/logo.jpeg);width: 120px; height:80px;background-size: 110px 80px;}
+
+.icons{float:right;}
+.icons a{float:left;padding-top:30px;margin-right: 20px; color: rgb(46, 46, 46);}
+.icons a:hover{color:rgb(241, 58, 128); margin-top:7px;}
+
+
+
