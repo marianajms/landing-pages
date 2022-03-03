@@ -12,12 +12,31 @@ h2{font: 1.5em;color:#333;}
 .promo h2{float:left;color: #fff; font-size: 1em;font-weight: bolder;margin-top:4px;margin-right: 20px;}
 #confira{float:left;color: #fff;text-decoration: underline;margin-top: 5px;}
 
-.cabecalho{ padding:10px 8%; background-color: rgb(243, 243, 243);height:167px;}
-.cabecalho h1 a{background-image: url(../shein/logo.jpeg);width: 120px; height:80px;background-size: 110px 80px;}
+.cabecalho{ padding:10px 8%; background-color: rgb(243, 243, 243);height:140px;}
+.cabecalho h1 a{background-image: url(../shein/logo.jpeg);width: 150px; height:75px;background-size: 100% 75px;}
+
 
 .icons{float:right;}
-.icons a{float:left;padding-top:30px;margin-right: 20px; color: rgb(46, 46, 46);}
+.icons a{float:left;padding-top:25px;margin-right: 20px; color: rgb(46, 46, 46);}
 .icons a:hover{color:rgb(241, 58, 128); margin-top:7px;}
+
+.menu{padding:0 8%;float:left;background-color: rgb(255, 255, 255);width:100%;box-shadow: 5px 5px 5px rgb(226, 225, 225);}
+.menu ul{width: 80%;float:left;}
+.menu li{float:left;margin-right: 20px;font-size: 0.6em;padding:15px;letter-spacing: 1px;font-weight: bolder;}
+
+.pesquisa{width: 20%;float:left;}
+.pesquisa form{width: 100%;}
+.pesquisa input{float:left;width: 80%;padding:0px 10px;margin-top: 4px;font-size: 0.8em;border:solid 1px black;height: 35px;}
+.pesquisa button{float:right;width: 20%;margin-top: 4px;background-color: black;color: #fff;height:35px;cursor:pointer;}
+
+.principal{width: 100%;padding:6% 9%;float:left;}
+.principal img{width: 50%;float:left;margin-right: 5%;}
+.principal h2{float:left;width: 41%;font-weight: bold;margin-bottom: 20px;}
+
+.principal li{float:left; border:solid 1px rgb(196, 193, 193);border-radius: 5px; margin-right:2%;width: 40px;text-align: center;}
+.principal button{background-color: black;padding:5px 10px; font-weight:bolder ;font-size: 1.3em; color:rgb(255, 255, 255);margin: 35px 0;cursor: pointer;}
+
+
 
 
 
