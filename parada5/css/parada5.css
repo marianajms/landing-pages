@@ -1,0 +1,19 @@
+/*RESET*/
+*{margin:0;padding:0;font-size: 100%;font-family: 'Lato', sans-serif;;font-weight: 300;box-sizing: border-box;border: none;outline: none;}
+body{background-color: #f5f5f5;}
+img{max-width: 100%;}
+ul{list-style: none;}
+a{text-decoration: none;}
+
+/*CABECALHO*/
+.cabecalho{background-color: rgb(230 224 187);float:left;padding:2% 4%;width: 100%;}
+.cabecalho h1 a{background-image: url(../img/6c763dd7bbf3439e87ffefb3db45ab18.png);background-size: 80px; width: 80px;height: 80px;float:left;}
+.cabecalho button{cursor:pointer;color: #f5f5f5;background-color: rgb(25, 25, 59);border-radius: 56px;width: 56px;height: 56px;text-align: center;float:right;margin-top: 2%;}
+
+/*MENU*/
+.menu{width: 100%;height: 100%;background-color: rgba(0,0,0,0.9);float:left;position: fixed;display:none;}
+.menu ul{width: 100%;float:left;text-align: center;}
+.menu li{padding:1.5%;}
+.menu li a{padding: 1.5% 3%;color: #f5f5f5;font-size: 2em;}
+.fechar{font-size: 3em;color: #f5f5f5;cursor: pointer;float:right;margin-right: 5%;cursor:pointer;}
+.menu li a:hover{border: 1px solid rgb(230 224 187);}
