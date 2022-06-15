@@ -1,0 +1,134 @@
+header{background: rgb(98, 183, 183);padding:2% 0;}
+
+.logonav{position: relative;
+        width: 940px;
+        margin: 0 auto;
+        
+}
+nav {position: absolute;top:40px;right:0;}
+nav li{display: inline-block;list-style: none;margin-left: 15px;}
+nav a{text-transform: uppercase;color: black;font-weight: bold;font-size: 22px;text-decoration: none;}
+
+
+nav a:hover{
+    color:rgb(99, 99, 99);
+    text-decoration: underline;
+
+}
+
+main{
+    width: 100%;
+    max-width: 940px;
+    margin:0px auto;
+}
+
+.formulario{
+    margin: 40px 0;
+}
+
+
+
+.inputpadrao, textarea,form p,legend{
+    display: block;
+    margin-bottom: 20px;
+    padding:7px 25px;
+    width:100%;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.formulariodiv{
+    width: 50%;
+}
+
+foot{
+    margin:20px;
+}
+
+thead{
+    background-color: rgb(83, 77, 90);
+    color: white;
+
+}
+
+table{
+    margin:20px;
+}
+td, th{
+    border:solid black 1px;
+    padding:5px;
+}
+
+footer p{
+    background-color: rgb(98, 183, 183);
+    width:100%;
+    margin-left:0;
+    margin-bottom: 0;
+    padding:10px 2%;
+    text-align: center;
+}
+
+#imgprincipal{
+    width: 100%;
+    opacity: 1;
+}
+
+#imgprincipal:hover{
+    opacity: 0.6;
+    transition: 400ms;
+}
+
+/* Página Inicial*/
+
+.titulo-centralizado{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    clear:left;
+
+
+}
+.produtos21{
+    float:left;
+    margin: 0 20px 20px 0;
+}
+
+section p{
+    text-align: justify;
+    text-indent: 1em;
+    padding: 20px;
+    line-height: 25px;
+}
+
+.localizacao{
+    background:linear-gradient(white,gray);
+    padding:20px;
+}
+
+.envolver{
+    width: 900px;
+    height: 400px;
+    margin: auto;
+}
+
+#video{max-width: 905px; margin: auto;}
+
+@media screen and (max-width: 480px){
+    .logonav,.envolver{width:auto;}
+    iframe{margin:auto;}
+
+    h1{text-align: center;}
+
+    nav{position: static;padding:2% 0; text-align: center;}
+
+    .produtos21{width:100%;}
+    .produtos21img{width: 90%;margin: 20px auto 0 auto;}
+    .formulariodiv{
+        width: 80%;
+ 
+    }
+
+}
+
+
+

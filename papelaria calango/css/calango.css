@@ -1,0 +1,5 @@
+header{background: rgb(205, 215, 215);}
+nav ul{position: absolute;}
+nav li{display: inline-block;list-style: none;margin-left: 15px;}
+nav a{text-transform: uppercase;color: black;font-weight: bold;font-size: 22px;text-decoration: none;}
+

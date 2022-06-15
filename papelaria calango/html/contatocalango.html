@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Calango - Contato</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/contatocalango.css">
+    <link rel="icon" href="../imagens/lizard.png">
+
+</head>
+
+<body style=" background-color:rgb(243, 243, 243)">
+
+    
+
+    <header class="cabecalho">
+        <div class="logonav">
+            <h1 >
+                <img src="../imagens/lizard.png" height="100px" width="100px" >
+                <p style="display:inline-block;font-size: 30px;font-weight: bold;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;vertical-align: top;margin-top:30px;">Calango</p>
+            </h1>
+            
+            <nav>
+                <ul>
+                    <li><a href="../html/indexcalango.html">Home</a></li>
+                    <li><a href="../html/calango.html">Produtos</a></li>
+                    <li><a href="../html/contatocalango.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="formulariodiv">
+        <form class="formulario">
+            <label  for="nomesobrenome">Nome e Sobrenome</label>
+            <input id="nomesobrenome" type="text"class="inputpadrao">
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email"class="inputpadrao">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" maxlength="11" minlength="8"class="inputpadrao">
+
+            <label for="mensagem">Adicione a sua mensagem</label>
+            <textarea  id="mensagem" cols="53" rows="10"></textarea>
+
+            <fieldset>
+                <legend style="text-indent:-25px;">Como prefere o nosso contato?</legend>
+            
+                <input type="radio" value="email" id="radioemail"name="contato">
+                <label for="radioemail">Email</label>
+                
+                <input type="radio" value="telefone" id="radiotelefone" name="contato">
+                <label for="radiotelefone">Telefone</label>
+                
+                <input type="radio" value="whatsapp" id="whats" name="contato">
+                <label for="whats">Whatsapp</label>
+                
+                <br><br>
+            </fieldset>
+            <p style="text-indent:-25px;">Qual horário prefere ser atendido?</p>
+            <select>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+
+
+            <br><br><input type="checkbox" checked id="novidades">
+            <label for="novidades">Gostaria de receber as nossas novidades por e-mail?</label>
+            
+
+            <br><br><input type="submit" >
+        </form>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horário</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Segunda a Sexta</td>
+                <td>8:00-20:00</td>
+            </tr>
+            <tr>
+                <td>Sabado</td>
+                <td>8:00-21:00</td>
+            </tr>
+            <tr>
+                <td>Domingo</td>
+                <td>8:00-15:00</td>
+            </tr>
+            <tr>
+                <td colspan="5">Rio de Janeiro</td> 
+            </tr>
+
+        </table>
+    </main>
+
+   
+
+
+
+    <footer>
+        <p>	
+            &copy; Copyright Calango - Papelaria - 2022</p>
+    </footer>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
